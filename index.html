@@ -1,0 +1,443 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+  <title>Dola Das</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,600;1,400&family=DM+Sans:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <!-- ===== NAVBAR ===== -->
+  <nav id="navbar">
+    <div class="nav-logo">DD</div>
+    <div class="hamburger" id="hamburger">&#9776;</div>
+    <ul class="nav-links" id="nav-links">
+      <li><a href="#about">About</a></li>
+      <li><a href="#timeline">Timeline</a></li>
+      <li><a href="#publications">Publications</a></li>
+      <li><a href="#achievements">Achievements</a></li>
+      <li><a href="#paintings">Paintings</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+
+  <!-- ===== HERO ===== -->
+  <section id="hero">
+    <div class="hero-content">
+      <div class="hero-text">
+        <p class="hero-greeting">Hello, I'm</p>
+        <h1 class="hero-name">Dola Das</h1>
+        <p class="hero-title">Assistant Professor, Computer Science & Engineering</p>
+        <p class="hero-subtitle typed-text" id="typed"></p>
+        <div class="hero-buttons">
+          <a href="data/cv.pdf" class="btn btn-primary" target="_blank">Download CV</a>
+          <a href="#contact" class="btn btn-secondary">Contact Info</a>
+        </div>
+        <div class="social-links">
+          <a href="mailto:dola.das@cse.kuet.ac.bd" title="Email" class="social-icon">✉</a>
+          <a href="https://www.linkedin.com/feed/" title="LinkedIn" class="social-icon" target="_blank">in</a>
+          <a href="https://scholar.google.com/citations?user=Pe8EY_4AAAAJ&hl=en&oi=ao" title="Google Scholar" class="social-icon" target="_blank">GS</a>
+          <a href="https://orcid.org/0000-0001-9001-4593" title="ORCID" class="social-icon" target="_blank">iD</a>
+        </div>
+      </div>
+      <div class="hero-photo">
+        <div class="photo-frame">
+          <img src="data/profile.jpg" alt="Dola Das" onerror="this.style.display='none'; this.parentElement.classList.add('no-photo');" />
+        </div>
+      </div>
+    </div>
+    <a href="#about" class="scroll-down">↓</a>
+  </section>
+
+  <!-- ===== ABOUT ===== -->
+  <section id="about">
+    <div class="section-header">
+      <span class="section-tag">Get To Know More</span>
+      <h2>About Me</h2>
+    </div>
+    <div class="about-grid">
+      <div class="about-photo">
+        <img src="data/profile2.jpg" alt="Dola Das" onerror="this.src='data/profile.jpg';" />
+      </div>
+      <div class="about-info">
+        <div class="info-cards">
+          <div class="info-card">
+            <span class="info-icon">🎓</span>
+            <h3>Education</h3>
+            <p>MSc & BSc in CSE<br>KUET, Bangladesh</p>
+          </div>
+          <div class="info-card">
+            <span class="info-icon">🔬</span>
+            <h3>Research</h3>
+            <p>Applied Cryptography<br>Information Security</p>
+          </div>
+          <div class="info-card">
+            <span class="info-icon">📚</span>
+            <h3>Experience</h3>
+            <p>5+ Years<br>Teaching & Research</p>
+          </div>
+        </div>
+        <p class="about-bio">
+          I am an Assistant Professor in the Department of Computer Science and Engineering at
+          <strong>Khulna University of Engineering &amp; Technology (KUET), Bangladesh</strong>.
+          My research interests lie in <strong>Applied Cryptography</strong>, <strong>Information Security</strong>,
+          and <strong>Privacy Preserving Information Retrieval</strong>. I completed my MSc at KUET with a perfect
+          CGPA of 4.00, focusing on secure multi-party computation. I have authored publications in IEEE journals
+          and conferences, and serve as a reviewer for international venues. Beyond research and teaching,
+          I am passionate about painting — a creative outlet that complements my analytical work.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== TIMELINE ===== -->
+  <section id="timeline">
+    <div class="section-header">
+      <span class="section-tag">Explore My</span>
+      <h2>Timeline</h2>
+    </div>
+    <div class="timeline-container">
+
+      <div class="timeline-item">
+        <div class="timeline-dot"></div>
+        <div class="timeline-date">2022 – Present</div>
+        <div class="timeline-content">
+          <h3>Assistant Professor</h3>
+          <p>Department of Computer Science and Engineering<br>Khulna University of Engineering & Technology</p>
+        </div>
+      </div>
+
+      <div class="timeline-item">
+        <div class="timeline-dot"></div>
+        <div class="timeline-date">2019 – 2022</div>
+        <div class="timeline-content">
+          <h3>Master of Science in CSE</h3>
+          <p>Khulna University of Engineering & Technology<br>CGPA: 4.00 / 4.00 &nbsp;|&nbsp; Thesis: <em>A Secure Framework for Multi-party Skyline Query</em></p>
+        </div>
+      </div>
+
+      <div class="timeline-item">
+        <div class="timeline-dot"></div>
+        <div class="timeline-date">2019 – 2022</div>
+        <div class="timeline-content">
+          <h3>Lecturer</h3>
+          <p>Department of Computer Science and Engineering<br>Khulna University of Engineering & Technology</p>
+        </div>
+      </div>
+
+      <div class="timeline-item">
+        <div class="timeline-dot"></div>
+        <div class="timeline-date">2022 – 2023</div>
+        <div class="timeline-content">
+          <h3>Project Director – Research Grant</h3>
+          <p>Development of a Bangla Tokenizer and Text Generative Transformer Model<br>Funded by University Grants Commission (UGC), Bangladesh</p>
+        </div>
+      </div>
+
+      <div class="timeline-item">
+        <div class="timeline-dot"></div>
+        <div class="timeline-date">2015 – 2019</div>
+        <div class="timeline-content">
+          <h3>Bachelor of Science in CSE</h3>
+          <p>Khulna University of Engineering & Technology<br>CGPA: 3.92 / 4.00 &nbsp;|&nbsp; Class Rank: 2nd out of 60</p>
+        </div>
+      </div>
+
+      <div class="timeline-item">
+        <div class="timeline-dot"></div>
+        <div class="timeline-date">2014</div>
+        <div class="timeline-content">
+          <h3>Higher Secondary Certificate</h3>
+          <p>Government Majid Memorial City College, Khulna<br>CGPA: 5.00 / 5.00 &nbsp;|&nbsp; Board Position: 30th</p>
+        </div>
+      </div>
+
+      <div class="timeline-item">
+        <div class="timeline-dot"></div>
+        <div class="timeline-date">2012</div>
+        <div class="timeline-content">
+          <h3>School Secondary Certificate</h3>
+          <p>Government Coronation Girls' High School, Khulna<br>CGPA: 5.00 / 5.00 &nbsp;|&nbsp; Board Position: 122nd</p>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ===== PUBLICATIONS ===== -->
+  <section id="publications">
+    <div class="section-header">
+      <span class="section-tag">Read My</span>
+      <h2>Publications</h2>
+    </div>
+
+    <div class="pub-filter">
+      <button class="pub-btn active" data-filter="all">All</button>
+      <button class="pub-btn" data-filter="journal">Journals</button>
+      <button class="pub-btn" data-filter="conference">Conferences</button>
+    </div>
+
+    <div class="pub-list" id="pub-list">
+
+      <!-- JOURNALS -->
+      <div class="pub-item" data-type="journal">
+        <span class="pub-badge journal">Journal</span>
+        <p class="pub-title">An Anonymity Retaining Framework for Multi-party Skyline Queries Based on Unique Tags</p>
+        <p class="pub-authors">Dola Das, Kazi Md. Rokibul Alam, Yasuhiko Morimoto</p>
+        <p class="pub-venue">IEEE Transactions on Dependable and Secure Computing (TDSC), 2023 &nbsp;|&nbsp; IF: 7.5 &nbsp;|&nbsp; Web of Science, Scopus</p>
+        <a href="https://doi.org/10.1109/TDSC.2023.3323961" class="pub-doi" target="_blank">DOI →</a>
+      </div>
+
+      <div class="pub-item" data-type="journal">
+        <span class="pub-badge journal">Journal</span>
+        <p class="pub-title">Diabetes Prediction Using Ensembling of Different Machine Learning Classifiers</p>
+        <p class="pub-authors">Md. Kamrul Hasan, Md. Ashraful Alam, Dola Das, Eklas Hossain, Mahmudul Hasan</p>
+        <p class="pub-venue">IEEE Access, Vol. 8, 2020 &nbsp;|&nbsp; IF: 3.6 &nbsp;|&nbsp; Web of Science, Scopus</p>
+        <a href="https://doi.org/10.1109/ACCESS.2020.2989857" class="pub-doi" target="_blank">DOI →</a>
+      </div>
+
+      <!-- CONFERENCES -->
+      <div class="pub-item" data-type="conference">
+        <span class="pub-badge conference">Conference</span>
+        <p class="pub-title">OBDNA: An Effective Optimized Binary DNA Cryptography Approach for Cloud Computing Security</p>
+        <p class="pub-authors">Mobarak Hossain Al-Mamon, Dola Das, Mosammat Urmi Begum</p>
+        <p class="pub-venue">ICECTE 2026, Rajshahi, Bangladesh</p>
+      </div>
+
+      <div class="pub-item" data-type="conference">
+        <span class="pub-badge conference">Conference</span>
+        <p class="pub-title">Prediction and Analyses of Women's Malnutrition with Real-Time Data and Explainable Machine Learning Techniques</p>
+        <p class="pub-authors">Susmita Sejuti Saha, Dola Das, Sanjida Akter Mou</p>
+        <p class="pub-venue">EICT 2025, Khulna, Bangladesh</p>
+        <a href="https://doi.org/10.1109/EICT68394.2025.11355523" class="pub-doi" target="_blank">DOI →</a>
+      </div>
+
+      <div class="pub-item" data-type="conference">
+        <span class="pub-badge conference">Conference</span>
+        <p class="pub-title">A Privacy-aware Medicine Recommendation System with Hybrid Cryptosystem and Skyline Queries</p>
+        <p class="pub-authors">Dhritisha Ghosh, Dola Das, Susmita Sejuti Saha</p>
+        <p class="pub-venue">IEEE STI 2025, Dhaka, Bangladesh</p>
+        <a href="https://doi.org/10.1109/STI69347.2025.11367612" class="pub-doi" target="_blank">DOI →</a>
+      </div>
+
+      <div class="pub-item" data-type="conference">
+        <span class="pub-badge conference">Conference</span>
+        <p class="pub-title">Fake News Detection: Exploring the Efficiency of Soft and Hard Voting Ensemble</p>
+        <p class="pub-authors">Arifur Rahman, Sakib Zaman, Shahriar Parvej, Pintu Chandra Shill, Md. Shahidul Salim, Dola Das</p>
+        <p class="pub-venue">Procedia Computer Science, Vol. 252, pp. 748–757, 2025 (Elsevier, Scopus)</p>
+      </div>
+
+      <div class="pub-item" data-type="conference">
+        <span class="pub-badge conference">Conference</span>
+        <p class="pub-title">Cracking the Genetic Code: Exploring DNA Sequence Classification with Machine Learning Models and Voting Ensemble Strategies</p>
+        <p class="pub-authors">Arifur Rahman, Sakib Zaman, Dola Das</p>
+        <p class="pub-venue">iCACCESS 2024, Dhaka, Bangladesh</p>
+        <a href="https://doi.org/10.1109/iCACCESS61735.2024.10499483" class="pub-doi" target="_blank">DOI →</a>
+      </div>
+
+      <div class="pub-item" data-type="conference">
+        <span class="pub-badge conference">Conference</span>
+        <p class="pub-title">Secure Land Purchasing using Different Multi-Party Skyline Queries with Anonymous Information</p>
+        <p class="pub-authors">Dola Das, Md Jahid Hasan, Sk Nahid Hasan, Arifur Rahman, Kazi Md Rokibul Alam</p>
+        <p class="pub-venue">ICCIT 2023, IEEE, Cox's Bazar, Bangladesh</p>
+        <a href="https://doi.org/10.1109/ICCIT60459.2023.10441132" class="pub-doi" target="_blank">DOI →</a>
+      </div>
+
+      <div class="pub-item" data-type="conference">
+        <span class="pub-badge conference">Conference</span>
+        <p class="pub-title">Depression Level Classification on Real-Time Data using Machine Learning and Data Mining Techniques</p>
+        <p class="pub-authors">Arpita Das, Tamzid Hasan Nahid, Dola Das, Awal Ahmed Fime</p>
+        <p class="pub-venue">ICCIT 2023, IEEE, Cox's Bazar, Bangladesh</p>
+        <a href="https://doi.org/10.1109/ICCIT60459.2023.10441106" class="pub-doi" target="_blank">DOI →</a>
+      </div>
+
+      <div class="pub-item" data-type="conference">
+        <span class="pub-badge conference">Conference</span>
+        <p class="pub-title">Bangla Emergency Post Classification on Social Media using Transformer Based BERT Models</p>
+        <p class="pub-authors">Alvi Ahmmed Nabil, Dola Das, Md Shahidul Salim, Shamsul Arifeen, HM Abdul Fattah</p>
+        <p class="pub-venue">EICT 2023, IEEE, Khulna, Bangladesh</p>
+        <a href="https://doi.org/10.1109/EICT61409.2023.10427900" class="pub-doi" target="_blank">DOI →</a>
+      </div>
+
+      <div class="pub-item" data-type="conference">
+        <span class="pub-badge conference">Conference</span>
+        <p class="pub-title">BanglaGPT: A Generative Pretrained Transformer-based Model for Bangla Language</p>
+        <p class="pub-authors">Md. Shahidul Salim, Hasan Murad, Dola Das, Faisal Ahmed</p>
+        <p class="pub-venue">ICT4SD 2023, IEEE, Dhaka, Bangladesh</p>
+        <a href="https://doi.org/10.1109/ICICT4SD59951.2023.10303383" class="pub-doi" target="_blank">DOI →</a>
+      </div>
+
+      <div class="pub-item" data-type="conference">
+        <span class="pub-badge conference">Conference</span>
+        <p class="pub-title">A Framework for Multi-party Skyline Query Maintaining Privacy and Data Integrity</p>
+        <p class="pub-authors">Dola Das, Kazi Md. Rokibul Alam, Yasuhiko Morimoto</p>
+        <p class="pub-venue">ICCIT 2021, IEEE, Dhaka, Bangladesh</p>
+        <a href="https://doi.org/10.1109/ICCIT54785.2021.9689854" class="pub-doi" target="_blank">DOI →</a>
+      </div>
+
+      <div class="pub-item" data-type="conference">
+        <span class="pub-badge conference">Conference</span>
+        <p class="pub-title">A Comparative Study to Predict Diabetes using Machine Learning Techniques</p>
+        <p class="pub-authors">Arpita Das, Shanta Kumar Das, Dola Das, Kazi Md. Rokibul Alam</p>
+        <p class="pub-venue">ICSCT 2021, IEEE, Dhaka, Bangladesh</p>
+        <a href="https://doi.org/10.1109/ICSCT53883.2021.9642493" class="pub-doi" target="_blank">DOI →</a>
+      </div>
+
+      <div class="pub-item" data-type="conference">
+        <span class="pub-badge conference">Conference</span>
+        <p class="pub-title">A Cost-Effective Multisensor Based Framework to Assist Visually Disable Person</p>
+        <p class="pub-authors">Nawshin Tabassum, Dola Das, Arpita Das</p>
+        <p class="pub-venue">ICAICT 2020, IEEE, Dhaka, Bangladesh</p>
+        <a href="https://doi.org/10.1109/ICAICT51780.2020.9333537" class="pub-doi" target="_blank">DOI →</a>
+      </div>
+
+      <div class="pub-item" data-type="conference">
+        <span class="pub-badge conference">Conference</span>
+        <p class="pub-title">Real Time Distance and Mobility Detection of Obstacles Using a Smart Multisensor Framework for Visually Impaired People</p>
+        <p class="pub-authors">Dola Das, Prottoy Saha, Nawshin Tabassum</p>
+        <p class="pub-venue">IEEE TENSYMP 2020, Dhaka, Bangladesh</p>
+        <a href="https://doi.org/10.1109/TENSYMP50017.2020.9230880" class="pub-doi" target="_blank">DOI →</a>
+      </div>
+
+      <div class="pub-item" data-type="conference">
+        <span class="pub-badge conference">Conference</span>
+        <p class="pub-title">Deep Neural Network Based Continuous Blood Pressure Estimation with Data Mining Techniques</p>
+        <p class="pub-authors">Dola Das, Nawshin Tabassum, Mahmudul Hasan, M.M.A Hashem</p>
+        <p class="pub-venue">ICAEE 2019, IEEE, Dhaka, Bangladesh</p>
+        <a href="https://doi.org/10.1109/ICAEE48663.2019.8975628" class="pub-doi" target="_blank">DOI →</a>
+      </div>
+
+    </div>
+    <p class="pub-note">All publications can also be found on <a href="https://scholar.google.com/citations?user=Pe8EY_4AAAAJ&hl=en&oi=ao" target="_blank">Google Scholar</a> and <a href="https://orcid.org/0000-0001-9001-4593" target="_blank">ORCID</a>.</p>
+  </section>
+
+  <!-- ===== ACHIEVEMENTS ===== -->
+  <section id="achievements">
+    <div class="section-header">
+      <span class="section-tag">Find Out About My</span>
+      <h2>Achievements</h2>
+    </div>
+    <div class="achievements-grid">
+
+      <div class="achievement-card">
+        <div class="ach-icon">🏆</div>
+        <h3>Vice-Chancellor Award</h3>
+        <p>KUET, Bangladesh</p>
+        <span class="ach-year">2023</span>
+      </div>
+
+      <div class="achievement-card">
+        <div class="ach-icon">🎖</div>
+        <h3>University Dean's Award</h3>
+        <p>For scholastic achievement in 2nd, 3rd & 4th year<br>Khulna University of Engineering & Technology</p>
+        <span class="ach-year">2016 – 2018</span>
+      </div>
+
+      <div class="achievement-card">
+        <div class="ach-icon">📜</div>
+        <h3>Higher Secondary Board Scholarship</h3>
+        <p>Awarded for outstanding HSC results<br>Board Position: 30th</p>
+        <span class="ach-year">2014</span>
+      </div>
+
+      <div class="achievement-card">
+        <div class="ach-icon">📜</div>
+        <h3>School Secondary Board Scholarship</h3>
+        <p>Awarded for outstanding SSC results<br>Board Position: 122nd</p>
+        <span class="ach-year">2012</span>
+      </div>
+
+      <div class="achievement-card">
+        <div class="ach-icon">🔢</div>
+        <h3>Math Olympiad</h3>
+        <p>2nd Runner Up</p>
+        <span class="ach-year">2006</span>
+      </div>
+
+      <div class="achievement-card">
+        <div class="ach-icon">💡</div>
+        <h3>Research Grant – UGC Bangladesh</h3>
+        <p>Project Director for Bangla Tokenizer &amp; Text Generative Transformer Model</p>
+        <span class="ach-year">2022 – 2023</span>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ===== PAINTINGS ===== -->
+  <section id="paintings">
+    <div class="section-header">
+      <span class="section-tag">A Creative Side</span>
+      <h2>My Paintings</h2>
+    </div>
+    <p class="paintings-intro">
+      Beyond research and teaching, I find joy in painting — a meditative creative practice that brings
+      colour and imagination into my world.
+    </p>
+    <div class="paintings-grid" id="paintings-grid">
+      <!-- Paintings will be displayed here once you add images to the data/ folder -->
+      <!-- Example: data/painting1.png, data/painting2.png, etc. -->
+      <!-- The script.js will auto-load them, or you can add <img> tags manually -->
+      <div class="painting-placeholder">
+        <span>🎨</span>
+        <p>Paintings coming soon!</p>
+        <p class="placeholder-hint">Add your painting images to the <code>data/</code> folder and update <code>script.js</code> with the filenames.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== CONTACT ===== -->
+  <section id="contact">
+    <div class="section-header">
+      <span class="section-tag">Get In Touch</span>
+      <h2>Contact Me</h2>
+    </div>
+    <div class="contact-grid">
+      <div class="contact-info">
+        <div class="contact-item">
+          <span class="contact-label">Name</span>
+          <span>Dola Das</span>
+        </div>
+        <div class="contact-item">
+          <span class="contact-label">Position</span>
+          <span>Assistant Professor, Dept. of CSE, KUET</span>
+        </div>
+        <div class="contact-item">
+          <span class="contact-label">Address</span>
+          <span>Khulna University of Engineering & Technology<br>Khulna 9203, Bangladesh</span>
+        </div>
+        <div class="contact-item">
+          <span class="contact-label">Email</span>
+          <span>
+            <a href="mailto:dola.das@cse.kuet.ac.bd">dola.das@cse.kuet.ac.bd</a><br>
+            <a href="mailto:dolacse.16@gmail.com">dolacse.16@gmail.com</a>
+          </span>
+        </div>
+        <div class="contact-item">
+          <span class="contact-label">Phone</span>
+          <span>+8801679502532</span>
+        </div>
+      </div>
+      <form class="contact-form" id="contact-form">
+        <input type="text" placeholder="Your Name" required />
+        <input type="email" placeholder="Your Email" required />
+        <textarea placeholder="Your Message" rows="5" required></textarea>
+        <button type="submit" class="btn btn-primary">Send Message</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- ===== FOOTER ===== -->
+  <footer>
+    <p>Copyright &copy; 2025 Dola Das. All Rights Reserved.</p>
+  </footer>
+
+  <!-- Back to top -->
+  <a href="#hero" class="back-top" id="back-top">↑</a>
+
+  <script src="script.js"></script>
+</body>
+</html>
